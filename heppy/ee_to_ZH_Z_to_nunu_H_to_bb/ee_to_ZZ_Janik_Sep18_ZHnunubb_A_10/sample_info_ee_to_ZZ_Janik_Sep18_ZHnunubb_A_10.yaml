@@ -4,7 +4,6 @@
 sample:
   name          : ee_to_ZZ_Janik_Sep18_ZHnunubb_A_10
   id            : 10
-  mothers       : [2]
   nevents       : 370288
   njobs         : 200
   njobs_ok      : 200
