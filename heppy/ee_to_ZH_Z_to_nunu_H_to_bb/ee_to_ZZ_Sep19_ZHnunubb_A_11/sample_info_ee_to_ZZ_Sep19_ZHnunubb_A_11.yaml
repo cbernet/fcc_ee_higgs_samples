@@ -1,8 +1,8 @@
-# heppy, ZH->nunubb final state, no selection on number of bs 
+# heppy, ZH->nunubb final state, no selection on number of bs, proper rescaling
 ---
 
 sample:
-  name          : ee_to_ZZ_Sep12_ZHnunubb_A_11
+  name          : ee_to_ZZ_Sep19_ZHnunubb_A_11
   id            : 11
   mothers       : [2]
   nevents       : 191978
