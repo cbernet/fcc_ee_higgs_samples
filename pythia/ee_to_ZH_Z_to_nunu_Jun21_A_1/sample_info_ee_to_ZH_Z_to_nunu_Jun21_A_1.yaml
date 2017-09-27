@@ -8,7 +8,7 @@ sample:
   njobs_ok      : 100
   user          : cbern
   timestamp     : 2017-06-21T15:00:00.1Z
-  xsection      : 1.3e-11 # mb
+  xsection      : 3.9e-11 # mb (z->nue nue x 3)
 
 detector: # only needed for papas samples
   id            : 1
