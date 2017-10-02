@@ -1,0 +1,30 @@
+# heppy, ZH->nunubb final state, synced with Janik 
+---
+
+sample:
+  name          : ee_to_ZH_Z_to_nunu_Sep12_ZHnunubb_Sep29_A_16
+  id            : 16
+  mothers       : [1]
+  nevents       : 484382
+  njobs         : 100
+  njobs_ok      : 99 
+  user          : cbern
+  timestamp     : 2017-09-29T09:00:00.1Z
+  xsection      : 1.3e-11 # mb
+
+detector: # only needed for papas samples
+  id            : 1
+  name          : CMS
+  module        : heppy.papas.detectors.CMS
+
+analysis:
+  id            : 3
+  name          : ZHnunubb
+  module        : fcc_ee_higgs.analysis_ee_ZH_nunubb_cfg
+
+software:
+  id            : 4
+  fccstack      : 0.8
+  fcc-physics   : b2c5703
+  heppy         : 72c58ba # not necessary for pythia samples
+  fcc_ee_higgs  : 8638ff8
