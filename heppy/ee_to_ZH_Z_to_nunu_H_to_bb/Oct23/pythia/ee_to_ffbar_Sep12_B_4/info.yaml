@@ -1,0 +1,8 @@
+sample:
+  id: !!python/object:uuid.UUID
+    int: 52861684739052220955709984486267359733
+  jobtype: heppy
+  mother: pythia/ee_to_ffbar_Sep12_B_4
+  pattern: fcc_ee_higgs.analyzers.ZHTreeProducer.ZHTreeProducer_1/tree.root
+software:
+  heppy: !!python/unicode '1021a7c1c1ca72aaefd58af96da2c029fa2b0eb2'
