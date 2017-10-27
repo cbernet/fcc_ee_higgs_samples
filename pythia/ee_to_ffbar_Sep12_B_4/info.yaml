@@ -1,0 +1,19 @@
+detector:
+  id: 1
+  module: heppy.papas.detectors.CMS
+  name: CMS
+sample:
+  id: 4
+  name: ee_to_ffbar_Sep12_B_4
+  nevents: 4.97e6
+  njobs: 500
+  njobs_ok: 497
+  timestamp: 2017-09-13 15:00:00.100000
+  user: cbern
+  xsection: 7.8e-08
+software:
+  fcc-physics: b2c5703
+  fcc_ee_higgs: e59820f
+  fccstack: 0.8
+  heppy: 476b286
+  id: 1
