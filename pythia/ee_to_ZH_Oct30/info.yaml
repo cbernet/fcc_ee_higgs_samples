@@ -1,0 +1,7 @@
+sample:
+  id: !!python/object:uuid.UUID
+    int: 29061792483521488318246134921522695472
+  jobtype: pythia8
+  mother: null
+  pattern: Job*/*.root
+software: {}
