@@ -1,9 +1,9 @@
 processing:
-  nfiles: 200
+  nfiles: 100
   ngoodfiles: 100
 sample:
   id: !!python/object:uuid.UUID
-    int: 279520404301322982653564790517305524564
+    int: 326062818077993742970032041040512426782
   jobtype: heppy
   mother: pythia/ee_to_ZH_Oct30
   nevents: 30924
