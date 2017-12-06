@@ -1,0 +1,10 @@
+sample:
+  id: !!python/object:uuid.UUID
+    int: 282937165269620942900743853544193804223
+  jobtype: pythia8
+  mother: null
+  nevents: 4000000
+  nfiles: 200
+  ngoodfiles: 200
+  pattern: Job*/*.root
+software: {}
