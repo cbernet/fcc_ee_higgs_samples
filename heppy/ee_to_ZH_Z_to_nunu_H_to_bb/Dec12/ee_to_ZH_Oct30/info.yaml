@@ -1,0 +1,16 @@
+processing:
+  nfiles: 100
+  ngoodfiles: 100
+sample:
+  id: !!python/object:uuid.UUID
+    int: 123747742194130794547067255354773479009
+  jobtype: heppy
+  mother: pythia/ee_to_ZH_Oct30
+  nevents: 481169
+  nfiles: 1
+  ngoodfiles: 1
+  pattern: fcc_ee_higgs.analyzers.ZHTreeProducer.ZHTreeProducer_1/tree.root
+software:
+  fcc_datasets: !!python/unicode 'df41188443d8b15436543f854ee7de77a6934036'
+  fcc_ee_higgs: !!python/unicode 'ac5d30adbfe963180f4bee86bb8a292a9ff1de3e'
+  heppy: !!python/unicode '38a25d7fb2a170702cb1e44eb054a5c4392f9ced'
